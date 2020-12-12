@@ -174,9 +174,6 @@ In the command line the user must add some mandatory arguments to be able to use
 --version: show infos about the project.
 
 
-QUI MANCA SOLO LA PARTE DEI PARAMETRI ED è CONCLUSO 
-
-
 
 
 ## DOCUMENTATION
