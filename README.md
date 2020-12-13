@@ -1,8 +1,8 @@
-## GIT5: SONG LYRICS and TABS FETCHER PROJECT 
+## GIT5: SONG LYRICS and TABS FETCHER PROJECT :musical_note:
 
 Our project aims to grant users access to songs' lyrics and tabs through this simple tool that we created. 
 
-### GETTING STARTED
+### GETTING STARTED :computer:
 The following guidelines will help final users to understand the whole project better and, of course, get a copy of our project and run it on their local machine for development and testing purposes.
 
 ### Repository structure
@@ -55,7 +55,7 @@ The following guidelines will help final users to understand the whole project b
 
 
 
-### BEFORE STARTING: PREREQUISITES
+### BEFORE STARTING: PREREQUISITES :heavy_exclamation_mark:
 
 1. Download of the repository from Git-hub [GIT5](https://github.com/Matteo-Cobian/lyrics_git5)
 
@@ -74,7 +74,7 @@ The following guidelines will help final users to understand the whole project b
 	The system support a User Management System and so, you are going to need a valid username and password to login every time you execute the program.
 
 
-### HANDS ON: POPULATE THE DB
+### HANDS ON: POPULATE THE DB :busts_in_silhouette:
 
 4. Setup usernames and passwords, by executing databmanager.py from the command line.
 
@@ -176,14 +176,14 @@ In the command line the user must add some mandatory arguments to be able to use
 
 
 
-## DOCUMENTATION
+## DOCUMENTATION :notebook_with_decorative_cover:
 Documentation is stored in the repository documentation. Please have a look to understand the functions of our modules better.
 You should go in documentation/_build/html and select a file and it will open the documentation.
 
-## CSV
+## CSV :open_file_folder:
 In h_manager.py there is a code where the history of all the searches made in local is saved. This data is saved in a csv file created ad hoc, named history.csv.
 
-## TESTING
+## TESTING :name_badge:
 Tests on parts of the code are provided here: ```music_package/test/``` .  
 You can find the module ```test_module.py```. 
 To run them, use:```python -m unittest -b music_package/tests/test_module.py```:
@@ -200,7 +200,7 @@ Ran 3 tests in 1.114s
 OK
 ```
 
-## SUPPORT
+## SUPPORT :point_up:
 
 Do not hesitate if you need any support!
 
