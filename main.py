@@ -15,7 +15,7 @@ def argparse():
     The inputs are collected and parsed,
     then the results will be organized in arrays to be inserted in the URL.
     Arguments:
-    
+
         ["-artist"]: insert the name of the artist
         ["-title"]: insert the title of the song you are looking for
         ["-v"]: add verbosity
@@ -26,10 +26,10 @@ def argparse():
 
     parser = arg.ArgumentParser()
     parser.add_argument(
-        "artist", type = str,
+        "artist", type=str,
         help="add artist between double quotes")
     parser.add_argument(
-        "title", type = str,
+        "title", type=str,
         help="add title between double quotes")
     parser.add_argument(
         '-v', '--verbosity',
