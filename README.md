@@ -204,7 +204,7 @@ OK
 
 Do not hesitate if you need any support!
 
-## AUTHORS AND ACKNOWLEDGMENT
+## AUTHORS AND ACKNOWLEDGMENT :black_nib:
 
 - [Matteo Bianco](https://github.com/Matteo-Cobian)
 
