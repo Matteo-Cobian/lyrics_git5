@@ -4,14 +4,18 @@ import os
 from music_package import lyrics as ly
 import json
 
+
 class TestInput(unittest.TestCase):
+
     # smoke test: valid inputs
     def test_correct_values(self):
         # you should select some valid inputs, for which the output is known
         self.assertEqual(ly.get_lyric('Descendents', 'All'), 'All!')
+
     # corner case: empty string
     def test_empty_string(self):
         self.assertEqual(ly.get_lyric(" ", " "), "")
+
     # invalid inputs
     def test_wrong_values(self):
         # you should input wrong data
